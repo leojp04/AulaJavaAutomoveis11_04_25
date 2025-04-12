@@ -1,7 +1,5 @@
-package br.com.fiap.biblioteca.view;
+package br.com.fiap.veiculos.model;
 
-
-import br.com.fiap.biblioteca.model.Livro;// se não importar o pacote livro aqui no pacote princiap não vamos conseguir pegar as informações da classe livro
 
 public class Principal {
 

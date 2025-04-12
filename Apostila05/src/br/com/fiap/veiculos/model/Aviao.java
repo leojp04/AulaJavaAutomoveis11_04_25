@@ -1,22 +1,24 @@
-package br.com.fiap.biblioteca.view;
+package br.com.fiap.veiculos.model;
 
-import br.com.fiap.biblioteca.Cor;
-
-public class Lancha {
-
+public class Aviao {
     private String modelo;
-    private int quantidadeDeLugares;
+    private int quantidadeLugares;
+    private String prefixo;
     private double comprimento;
     private int anoFabricacao;
     private Cor cor;
-    private  int getQuantidadeDeMotores;
+    private int getQuantidaDeTurbinas;
 
     public String getModelo() {
         return modelo;
     }
 
-    public int getQuantidadeDeLugares() {
-        return quantidadeDeLugares;
+    public int getQuantidadeLugares() {
+        return quantidadeLugares;
+    }
+
+    public String getPrefixo() {
+        return prefixo;
     }
 
     public double getComprimento() {
@@ -31,16 +33,20 @@ public class Lancha {
         return cor;
     }
 
-    public int getGetQuantidadeDeMotores() {
-        return getQuantidadeDeMotores;
+    public int getQuantidaDeTurbinas() {
+        return getQuantidaDeTurbinas;
     }
 
     public void setModelo(String modelo) {
         this.modelo = modelo;
     }
 
-    public void setQuantidadeDeLugares(int quantidadeDeLugares) {
-        this.quantidadeDeLugares = quantidadeDeLugares;
+    public void setQuantidadeLugares(int quantidadeLugares) {
+        this.quantidadeLugares = quantidadeLugares;
+    }
+
+    public void setPrefixo(String prefixo) {
+        this.prefixo = prefixo;
     }
 
     public void setComprimento(double comprimento) {
@@ -55,7 +61,7 @@ public class Lancha {
         this.cor = cor;
     }
 
-    public void setGetQuantidadeDeMotores(int getQuantidadeDeMotores) {
-        this.getQuantidadeDeMotores = getQuantidadeDeMotores;
+    public void setQuantidaDeTurbinas(int getQuantidaDeTurbinas) {
+        this.getQuantidaDeTurbinas = getQuantidaDeTurbinas;
     }
 }

@@ -1,6 +1,4 @@
-package br.com.fiap.biblioteca.view;
-
-import br.com.fiap.biblioteca.Cor; // Importa a classe Cor corretamente
+package br.com.fiap.veiculos.model;
 
 public class Carro {
 

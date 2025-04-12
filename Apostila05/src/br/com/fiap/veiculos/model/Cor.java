@@ -1,4 +1,4 @@
-package br.com.fiap.biblioteca;
+package br.com.fiap.veiculos.model;
 
 // Classe que representa uma cor no padrão RGB com nome
 public class Cor {

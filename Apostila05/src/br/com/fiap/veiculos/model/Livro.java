@@ -1,5 +1,5 @@
 // Define o pacote onde a classe está localizada (organização em pastas)
-package br.com.fiap.biblioteca.model;
+package br.com.fiap.veiculos.model;
 // Declara a classe Livro como pública (pode ser acessada de qualquer lugar)
 public class Livro {
 
